@@ -1,17 +1,19 @@
 <a name="goback">
 
-# Project 3 (Can I Eat This?)
-## Live: https://ciethis.herokuapp.com
+# Can I Eat This?
+### Live: https://ciethis.herokuapp.com
 
 ![app-logo](./images/logo.png)
 
 </a>
 
-### Team: Esraa, Francheska, Naomi
+General Assembly's Web Development Immersive <br />
+Project 3 <br />
+Developed by Esraa Alaarag, Naomi Meyer, and Francheska Guzman.
 
 ## Table of Contents
 
-1. [App description](#appdescription)
+1. [Description](#description)
 2. [User Stories](#userstories)
 3. [Wireframes Web Version](#wireframesweb)
 4. [Wireframes Mobile Version](#wireframesmobile)
@@ -24,7 +26,7 @@
 
 <a name="appdescription">
 
-## APP DESCRIPTION:
+## Description
 
 An app for people who care about the ingredients in their food!
 
@@ -52,7 +54,7 @@ Step 5: In history, the user can save their past products searched and preferenc
 
 <a name="userstories">
 
-## USER STORIES:
+## User stories
 
 - As a user, I want to use the app in the browser and on a mobile device.
 
@@ -78,8 +80,7 @@ Step 5: In history, the user can save their past products searched and preferenc
 
 <a name="wireframesweb">
 
-## WIREFRAMES:
-## (Web/Browser Version)
+## Wireframes Web/Browser Version
 
 ### Here is the initial thinking we started with:
 
@@ -101,7 +102,7 @@ Step 5: In history, the user can save their past products searched and preferenc
 
 <a name="wireframesmobile">
 
-## (Mobile Version)
+## Wireframes Mobile Version
 
 ### Homepage, Scan Barcode and Product Info:
 ![mobile1-3](./images/mobile1-3.png)
@@ -113,7 +114,7 @@ Step 5: In history, the user can save their past products searched and preferenc
 
 <a name="pseudocode">
 
-## PSEUDOCODE:
+## Pseudocode
 
 1. Grab the item barcode (by scanning the UPC number, or write it in an input field)
 2. Validate the barcode, 12 digits number
@@ -135,7 +136,7 @@ Step 5: In history, the user can save their past products searched and preferenc
 
 <a name="database">
 
-## ERD/VISUAL REPRESENTATION OF DATABASE:
+## ERD/Visual Representation of the Database
 
 ![database](./images/database.png)
 
@@ -143,7 +144,7 @@ Step 5: In history, the user can save their past products searched and preferenc
 
 <a name="technologies">
 
-## TECHNOLOGIES USED:
+## Technologies used
 
 ### Core Stack:
 
@@ -189,7 +190,7 @@ Step 5: In history, the user can save their past products searched and preferenc
 
 <a name="project">
 
-## SEE THE PROJECT:
+## See the project
 
 ### Live Deployment of App: https://ciethis.herokuapp.com
 
