@@ -19,10 +19,11 @@ Developed by Esraa Alaarag, Naomi Meyer, and Francheska Guzman.
 4. [Wireframes Mobile Version](#wireframesmobile)
 5. [Visual representation of the database](#database)
 6. [Pseudocode](#pseudocode)
-7. [APP flowChart](#workflow)
+7. [App flowchart](#workflow)
 8. [ERD or other visual representation of your database](#database)
 9. [Technologies used](#technologies)
-10. [Ways to see the project](#project)
+10. [Cross-browser compatibility](#compatibility)
+11. [Ways to see the project](#project)
 
 <a name="appdescription">
 
@@ -130,13 +131,19 @@ Step 5: In history, the user can save their past products searched and preferenc
 12. Allow the user to delete a product by clicking on X
 13. For wrong links, 404 page is available.
 
+
+<a name="workflow">
+
+## App flowchart
+
 ![workflow](./images/workflow1.png)
 ![workflow](./images/workflow2.png)
+
 </a>
 
 <a name="database">
 
-## ERD/Visual Representation of the Database
+## ERD or other visual representation of your database
 
 ![database](./images/database.png)
 
@@ -146,7 +153,7 @@ Step 5: In history, the user can save their past products searched and preferenc
 
 ## Technologies used
 
-### Core Stack:
+### Core Stack
 
 - React
 - Node
@@ -159,7 +166,7 @@ Step 5: In history, the user can save their past products searched and preferenc
 - Heroku
 - Git
 
-### Middleware:
+### Middleware
 
 - nodemon
 - pg-promise
@@ -170,7 +177,7 @@ Step 5: In history, the user can save their past products searched and preferenc
 - react-base64-img
 - CSS Frameworks
 
-### APIs:
+### APIs
 
 - Optical Character Recognition (OCR) API
 - Nutritionix API
@@ -187,6 +194,16 @@ Step 5: In history, the user can save their past products searched and preferenc
 - Ice-cream (for sanity :)
 
 </a>
+
+## <a id="compatibility">Cross-browser compatibility</a>
+
+This site has been tested in the following browsers:
+
+Chrome – Version 59.0.3071.115 
+
+Firefox – Version 54.0.1
+
+Safari – Version 9.1.2
 
 <a name="project">
 
