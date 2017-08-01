@@ -1,17 +1,14 @@
-<a name="goback">
+# <a id="project">Can I Eat This?</a>
 
-# Can I Eat This?
 ### Live: https://ciethis.herokuapp.com
 
 ![app-logo](./images/logo.png)
-
-</a>
 
 General Assembly's Web Development Immersive <br />
 Project 3 <br />
 Developed by Esraa Alaarag, Naomi Meyer, and Francheska Guzman.
 
-## Table of Contents
+### Table of Contents
 
 1. [Description](#description)
 2. [User Stories](#userstories)
@@ -230,4 +227,4 @@ Thanks :)
 
 </a>
 
-[Go Back to the Table of Content](#goback)
+#### [Go back to the Table of Contents](#project)
