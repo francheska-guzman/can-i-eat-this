@@ -20,7 +20,7 @@ Developed by Esraa Alaarag, Naomi Meyer, and Francheska Guzman.
 8. [ERD or other visual representation of your database](#database)
 9. [Technologies used](#technologies)
 10. [Cross-browser compatibility](#compatibility)
-11. [Ways to see the project](#project)
+11. [Ways to see the project](#deployment)
 
 <a name="appdescription">
 
@@ -202,7 +202,7 @@ Firefox – Version 54.0.1
 
 Safari – Version 9.1.2
 
-<a name="project">
+<a name="deployment">
 
 ## See the project
 
