@@ -1,6 +1,4 @@
-# <a id="project">Can I Eat This?</a>
-
-### Live: https://ciethis.herokuapp.com
+# <a id="project"> Can I Eat This? </a>
 
 ![app-logo](./images/logo.png)
 
@@ -11,9 +9,9 @@ Developed by Esraa Alaarag, Naomi Meyer, and Francheska Guzman.
 ### Table of Contents
 
 1. [Description](#description)
-2. [User Stories](#userstories)
-3. [Wireframes Web Version](#wireframesweb)
-4. [Wireframes Mobile Version](#wireframesmobile)
+2. [User stories](#userstories)
+3. [Wireframes web version](#wireframesweb)
+4. [Wireframes mobile version](#wireframesmobile)
 5. [Visual representation of the database](#database)
 6. [Pseudocode](#pseudocode)
 7. [App flowchart](#workflow)
@@ -22,25 +20,23 @@ Developed by Esraa Alaarag, Naomi Meyer, and Francheska Guzman.
 10. [Cross-browser compatibility](#compatibility)
 11. [Ways to see the project](#deployment)
 
-<a name="appdescription">
-
-## Description
+## <a name="description"> Description </a>
 
 An app for people who care about the ingredients in their food!
 
 Step 1: Users register their dietary restrictions on the user preferences page and can save their issues. Such as allergies to peanuts or shellfish, lactose intolerant, gluten-free, or other specific dietary restrictions. 
 
--	Current allergen list:
+**Current allergen list:**
 
-	-	Peanut
-	-	Tree Nuts
-	-	Milk (lactose intolerant)
-	-	Egg
-	-	Wheat (gluten-free)
-	-	Soy
-	-	Fish
-	-	Shellfish
-	-	Sesame
+- Peanut
+- Tree Nuts
+- Milk (lactose intolerant)
+- Egg
+- Wheat (gluten-free)
+- Soy
+- Fish
+- Shellfish
+- Sesame
 
 Step 2: Users quickly and easily take a picture of the barcode of a food item to check the ingredients. Using Optical Character Recognition (OCR) the app checks if any of the ingredients from the product match with any of the saved user preferences. 
 
@@ -48,15 +44,12 @@ Step 4: The app displays the results of the thorough ingredient check (over 60 k
 
 Step 5: In history, the user can save their past products searched and preferences, stored in an external database. 
 
-</a>
-
-<a name="userstories">
-
-## User stories
+## <a name="userstories"> User stories </a>
 
 - As a user, I want to use the app in the browser and on a mobile device.
 
 - As a user, I want to see cute icons for each of my allergen preferences.
+
 - Like this: ![fish-logo](./images/fish-color.png)  ![milk-icon](./images/milk-color.png)  ![treenut-logo](./images/treenut-color.png)  ![egg-logo](./images/egg-color.png)
 
 - As a user, I want to add and edit the ingredients I am careful about in my User Profile.
@@ -74,11 +67,8 @@ Step 5: In history, the user can save their past products searched and preferenc
 - As a user, I want to see the product picture (if available) and see the list of ingredients.
 
 - As a user, I want to edit my allergen preferences in the profile page and get an updated history page.
-</a>
 
-<a name="wireframesweb">
-
-## Wireframes Web/Browser Version
+## <a name="wireframesweb"> Wireframes web version </a>
 
 ### Here is the initial thinking we started with:
 
@@ -96,19 +86,13 @@ Step 5: In history, the user can save their past products searched and preferenc
 ### History:
 ![history](./images/history.png)
 
-</a>
+## <a name="wireframesmobile"> Wireframes mobile version </a>
 
-<a name="wireframesmobile">
-
-## Wireframes Mobile Version
-
-### Homepage, Scan Barcode and Product Info:
+### Homepage, Scan Barcode, and Product Information:
 ![mobile1-3](./images/mobile1-3.png)
 
 ### User Profile and History:
 ![mobile4-5](./images/mobile4-5.png)
-
-</a>
 
 <a name="pseudocode">
 
@@ -129,37 +113,27 @@ Step 5: In history, the user can save their past products searched and preferenc
 13. For wrong links, 404 page is available.
 
 
-<a name="workflow">
-
-## App flowchart
+## <a name="workflow"> App flowchart </a>
 
 ![workflow](./images/workflow1.png)
 ![workflow](./images/workflow2.png)
 
-</a>
-
-<a name="database">
-
-## ERD or other visual representation of your database
+## <a name="database"> ERD or other visual representation of your database </a>
 
 ![database](./images/database.png)
 
-</a>
-
-<a name="technologies">
-
-## Technologies used
+## <a name="technologies"> Technologies used </a>
 
 ### Core Stack
 
-- React
-- Node
-- Express
-- PostgreSQL
 - HTML
 - CSS
 - JavaScript
 - jQuery
+- React
+- Node.js
+- Express.js
+- PostgreSQL
 - Heroku
 - Git
 
@@ -190,9 +164,7 @@ Step 5: In history, the user can save their past products searched and preferenc
 - Postman (API and DB testing)
 - Ice-cream (for sanity :)
 
-</a>
-
-## <a id="compatibility">Cross-browser compatibility</a>
+## <a id="compatibility"> Cross-browser compatibility </a>
 
 This site has been tested in the following browsers:
 
@@ -202,17 +174,9 @@ Firefox – Version 54.0.1
 
 Safari – Version 9.1.2
 
-<a name="deployment">
+## <a name="deployment"> See the project </a>
 
-## See the project
-
-### Live Deployment of App: https://ciethis.herokuapp.com
-
-Database hosted on Heroku:
-- https://caneatthis.herokuapp.com
-- To access the products information: https://caneatthis.herokuapp.com/api/information
-- To access the user issues: https://caneatthis.herokuapp.com/api/allergies
-- GitHub of database: https://github.com/esraa2525/canieatthis
+### Live Deployment of App: [https://ciethis.herokuapp.com](https://ciethis.herokuapp.com)
 
 ### Download Project & Install
 
@@ -220,11 +184,5 @@ Database hosted on Heroku:
 2. Make sure to `npm install`
 3. Cd to the `react` folder
 4. Run `npm start` and app should be available on localhost:3000
-
-Thanks :) 
-
-![app-logo](./images/logo.png)
-
-</a>
 
 #### [Go back to the Table of Contents](#project)
